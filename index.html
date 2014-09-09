@@ -11,6 +11,7 @@ title: Explorations
 		<h4>{{ post.date | date_to_string}}</h4>
 		<p>
     		{{ post.content | truncatewords:250 }}
+    		{% include readmore.html %}
 		</p>
 	</div>
 	{% endfor %}
