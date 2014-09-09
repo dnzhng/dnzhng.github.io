@@ -5,7 +5,6 @@
 	font-style: normal;
 }
 
-
 @font-face {
 	font-family: 'district';
 	src: url('../fonts/DistProTh.otf');
@@ -75,6 +74,7 @@
 	color: #6b1c31;
 }
 #blogroll  h2, h4 {
+	font-family: district !important;
 	color: #B3544F;
 }
 

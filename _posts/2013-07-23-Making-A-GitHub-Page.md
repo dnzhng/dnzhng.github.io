@@ -4,7 +4,7 @@ layout: post
 comments: true
 ---
 ##Part 1
-####Why GitHub?
+###Why GitHub?
 
 [After writing some of this post, I realized how long it will be, so I am dividing it into parts.]
 
@@ -16,7 +16,7 @@ When I first decided I wanted to make a personal page, I looked in to free websi
 
 However, this time, as I delved more into different aspects of coding and development, I realized that the best way that I learn something is to just do it, rather than just reading about it. Thus, I told myself to build a page on my own, and GitHub pages seemed to offer the best medium of doing so. I already had an account (which I rarely used, another reason for me to make my page on GitHub), so I just looked up how to create one, and it was made. 
 
-####Beginnings
+###Beginnings
 
 Just kidding, it really wasn't that easy (overall, it took me a little more than a week). As a person fairly unfamiliar with GitHub, and Git itself, I had to clumsily find my way. The first iteration of the page, I stupidly chose the option of picking from a premade template that used Jekyll. Now, at the time I had no idea what Jekyll was, but I thought that a template would be a good place to start, so I picked one I liked...
 
