@@ -22,12 +22,6 @@
 	text-decoration: none;
 }
 
-@media (max-width: 979px) {
-  body {
-    padding-top: 0px;
-  }
-}
-
 .sidebar h1 {
 	font-size: 4em;
 	padding: 5px 5px 5px 0px;
@@ -41,7 +35,6 @@
 
 .sidebar {
 	left: 0px;
-	float: left;
 	height: 100%;
 	width: 40%;
 	position: fixed;
@@ -98,5 +91,21 @@ a img {
 
 a img {
 	margin-right: 1em;
+}
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+
+  .sidebar {
+  	position: relative;
+  	width: 100%;
+  }
+
+  .sidebar > .container {
+	margin: 3em auto;
+	padding-left: 50px;
+}
 }
 
