@@ -101,11 +101,12 @@ a img {
   .sidebar {
   	position: relative;
   	width: 100%;
+  	height: auto;
   }
 
   .sidebar > .container {
-	margin: 3em auto;
-	padding-left: 50px;
-}
+		margin: 3em auto;
+		padding-left: 50px;
+	}
 }
 
