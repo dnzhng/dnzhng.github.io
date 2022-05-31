@@ -1,0 +1,38 @@
+{
+  "name": "dnzhng.com",
+  "version": "1.0.0",
+  "description": "it me",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnzhng/dnzhng.github.io.git"
+  },
+  "keywords": [
+    "personal",
+    "site",
+    "github",
+    "pages",
+    "static",
+    "next"
+  ],
+  "author": "Daniel Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnzhng/dnzhng.github.io/issues"
+  },
+  "homepage": "https://github.com/dnzhng/dnzhng.github.io#readme",
+  "dependencies": {
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "sunrise-sunset-js": "^2.2.1"
+  },
+  "devDependencies": {
+    "sass": "^1.52.1"
+  }
+}
