@@ -1,6 +1,5 @@
 # misc
 .DS_Store
-assets/*
 
 # dependencies
 node_modules/
