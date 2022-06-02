@@ -1,4 +1,5 @@
 import Head from "next/head";
+import DarkModeToggle from "./darkModeToggle";
 
 const Layout = ({ children }) => (
   <>
@@ -8,6 +9,7 @@ const Layout = ({ children }) => (
       <title>Daniel Zhang</title>
     </Head>
     { children }
+    <DarkModeToggle />
   </>
 );
 

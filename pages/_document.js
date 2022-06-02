@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 import useDarkMode from '../hooks/useDarkMode';
 
 const Document = () => {
-  const darkMode = useDarkMode();
+  const { darkMode } = useDarkMode();
 
   return (
     <Html lang="en">

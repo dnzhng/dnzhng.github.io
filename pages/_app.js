@@ -5,10 +5,10 @@ import { useEffect } from 'react';
 import useDarkMode from '../hooks/useDarkMode';
 
 const App = ({ Component, pageProps }) => {
-  const darkMode = useDarkMode();
+  const { darkMode } = useDarkMode();
 
   useEffect(() => {
-    document.body.className = darkMode ? 'dark' : '';
+    if (darkMode !== null) document.body.className = darkMode ? 'dark' : '';
   });
 
   return <Component { ...pageProps } />
